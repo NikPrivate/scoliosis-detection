@@ -1,0 +1,43 @@
+{
+  "name": "fypproject",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "^3.2.1",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "axios": "^1.7.2",
+    "expo": "~51.0.24",
+    "expo-camera": "~15.0.14",
+    "expo-constants": "^16.0.2",
+    "expo-file-system": "^17.0.1",
+    "expo-image-manipulator": "^12.0.5",
+    "expo-image-picker": "~15.0.7",
+    "expo-media-library": "~16.0.4",
+    "expo-splash-screen": "^0.27.5",
+    "expo-status-bar": "^1.12.1",
+    "moment": "^2.30.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.3",
+    "react-native-canvas": "^0.1.40",
+    "react-native-compressor": "^1.8.24",
+    "react-native-image-picker": "^7.1.2",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-unordered-list": "^1.0.4",
+    "react-native-vector-icons": "^10.1.0",
+    "react-native-web": "~0.19.6",
+    "vector-icons": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
